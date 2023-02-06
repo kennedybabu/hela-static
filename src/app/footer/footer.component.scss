@@ -1,0 +1,42 @@
+.footer {  
+    background-image: linear-gradient(to right bottom,  rgba(0, 0, 0, 0.644), rgba(235, 104, 29, 0.63)), url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #d3dee4;
+    min-width: 100vw!important;
+    overflow-x: hidden;
+
+    .col {
+        ul {
+            li {
+                list-style: none;
+                text-decoration: none!important;
+                color: #d3dee4!important;
+                text-decoration: none!important;
+            }
+
+            
+        }
+
+        .container {
+            .row {
+                display: flex!important;
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    .container {
+        .row {
+            grid-template-columns: repeat(2, 1fr)!important;
+        }
+    }
+
+    body > app-root > app-footer > div > div.row.pt-2 {
+        background-color: red!important;
+    }
+}

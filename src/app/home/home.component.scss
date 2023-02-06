@@ -1,10 +1,27 @@
 .container {
-    min-height: 100vh;
+    padding-top: 2rem!important;
+
+    .row {
+        p {
+            color: grey;
+        }
+        h2 {
+            font-weight: 600;
+
+            span {
+                color: #219ebc;
+            }
+        }
+
+        .active {
+            color: whitesmoke!important;
+        }
 
 
-    .text {
-        span {
-            color: #219ebc;
+        button {
+            margin: 0 auto!important;
         }
     }
+
+  
 }
