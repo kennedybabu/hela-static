@@ -25,3 +25,19 @@
 
   
 }
+
+@media screen and (min-width: 768px) {
+    .container {
+        height: 60vh;
+
+        .row {
+
+            div {
+                display: flex;             
+                flex-direction: column;
+                text-align: start!important;
+                height: 100%;
+            }
+        }
+    }
+}
