@@ -4,12 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     color: #d3dee4;
-    min-width: 100vw!important;
+    width: 100vw!important;
     overflow-x: hidden;
 
     .row {
-        .row {
-            .col {
+      
+            .col-md-3 {
                 .container {
                     .footer-social-links {
                         display: flex;
@@ -52,7 +52,7 @@
                     }
                 }
             }
-        }
+      
     }
    
 }
@@ -61,12 +61,25 @@
 @media screen and (max-width: 680px) {
     .container {
         .row {
+            .col-md-3 {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
 
-            .row {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr)!important;
+                .footer-social-links {
+                    justify-content: center;
+                }
 
+                ul {
+                    display: flex;
+
+                    a {
+                        margin: 0 1rem;
+                    }
+
+                }
             }
+        
         }
     }   
 }

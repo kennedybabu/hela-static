@@ -1,10 +1,22 @@
 nav {
     background-color: #FB8500!important;
     padding: 1.4rem 0 .4rem 0;
-    
-    #navbarNavAltMarkup {
-        justify-content: flex-end;
+
+
+    .container-fluid {
+        
+        #navbarNavAltMarkup {
+            justify-content: flex-end;
+
+            .navbar-nav {
+                .active {
+                    color: aliceblue;
+                    font-weight: 600;
+                }
+            }
+        }
     }
+    
 
     
 }

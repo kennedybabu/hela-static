@@ -1,0 +1,25 @@
+.container {
+    .row {
+        padding-bottom: 1rem;
+        justify-content: flex-end;
+
+        
+        .col-md-7 {
+            
+            .row {
+                .col-md-5 {
+                    padding: .2rem;
+                    svg {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    
+                    div {
+                        padding: .4rem;
+                    }
+                }
+            }
+        }
+    }
+}
