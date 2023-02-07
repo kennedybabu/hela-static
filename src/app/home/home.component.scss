@@ -1,12 +1,14 @@
 .container {
     padding-top: 2rem!important;
+    margin-top: 100px!important;
 
     .row {
         p {
             color: grey;
+            font-weight: 600;
         }
         h2 {
-            font-weight: 600;
+            font-weight: 700;
 
             span {
                 color: #219ebc;

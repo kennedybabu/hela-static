@@ -1,11 +1,9 @@
 .container {
     height: auto;
-
     
     .row {
         padding-bottom: 1rem;
         justify-content: flex-end;
-
         
         .col-md-7 {
             
@@ -16,11 +14,24 @@
                         width: 40px;
                         height: 40px;
                     }
-
                     
                     div {
                         padding: .4rem;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    .container {
+        .row {
+            .col-md-7 {
+
+                .row {
+                    padding: 1rem;
                 }
             }
         }
