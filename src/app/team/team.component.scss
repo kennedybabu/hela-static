@@ -1,6 +1,6 @@
 .team {
     margin-top: 2rem;
-    height: 50vh;
+    height: 80vh;
 
     .row {
         .col-md-5 {
@@ -26,6 +26,9 @@
             .col-md-7 {
                 padding-bottom: 2rem;
 
+                h4 {
+                    font-weight: 600;
+                }
 
                 .container {
                     .row {
