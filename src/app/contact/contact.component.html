@@ -7,20 +7,19 @@
             <h3>Get in touch</h3>
             <form (ngSubmit)="onSubmit()" [formGroup]="contactForm" class="shadow p-3">                
                 <input required minlength="1" formControlName="name" type="text" placeholder="Name" name="name" id="name" class="form-control form-group">
-                <span *ngIf="name && name.invalid && name.touched" class="alert">
+                <small *ngIf="name && name.invalid && name.touched" class="alert">
                     input is invalid
-                </span>
+                </small>
                 <input required minlength="1" formControlName="email" type="email" placeholder="Email" name="email" id="email" class="form-control form-group">
-                <span *ngIf="email && email.invalid && email.touched" class="alert">
+                <small *ngIf="email && email.invalid && email.touched" class="alert">
                     input is invalid
-                </span>
+                </small>
                 <input formControlName="phone" minlength="1" type="tel" placeholder="Phone" name="phone" id="phone" class="form-control form-group">
                 <input required formControlName="message" type="textarea" placeholder="Message" name="message" id="message" class="form-control form-group">
-                <span *ngIf="name && name.invalid && name.touched" class="alert">
+                <small *ngIf="name && name.invalid && name.touched" class="alert">
                     input is invalid
-                </span>
-                <button [disabled]="contactForm.invalid" class="btn">send</button>
-              
+                </small>
+                <button [disabled]="contactForm.invalid" class="btn mt-2">send</button>              
             </form>
         </div>
     </div>
