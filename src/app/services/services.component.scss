@@ -10,6 +10,21 @@
             h3 {
                 font-weight: 600;
             }
+
+            ul {
+                li {
+                    list-style: none;
+                    margin-top: .3rem;
+                }
+            }
+
+            div {
+                ul {
+                    li {
+                        list-style: none!important;
+                    }
+                }
+            }
         }
         
         .col-md-7 {
@@ -17,13 +32,14 @@
             .row {
                 .col-md-5 {
                     padding: .2rem;
+                    
                     svg {
                         width: 40px;
                         height: 40px;
                     }
                     
                     div {
-                        padding: .4rem;
+                        padding: .4rem;                       
                     }
                 }
             }

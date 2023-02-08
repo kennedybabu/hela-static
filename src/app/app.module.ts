@@ -14,6 +14,7 @@ import { TeamComponent } from './team/team.component';
 import { ServicesComponent } from './services/services.component';
 import { RouterModule } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
+import { MapsComponent } from './maps/maps.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     TeamComponent,
     ServicesComponent,
-    ContactComponent
+    ContactComponent,
+    MapsComponent
   ],
   imports: [
     BrowserModule,
